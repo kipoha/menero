@@ -11,4 +11,4 @@ RUN uv sync
 
 COPY . .
 
-RUN chmod +x /opt/menero-new/entrypoints/*.sh
+RUN chmod +x /opt/menero-new/.devops/entrypoints/*.sh
